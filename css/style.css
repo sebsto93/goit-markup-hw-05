@@ -88,7 +88,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/peopleoffice.jpg);
+    url(../images/peopleoffice.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
@@ -184,6 +184,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .fourthhead {
@@ -211,12 +212,12 @@ body {
   color: #434455;
 }
 
-.stopka {
+.footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
 
-.stopka_logo {
+.footer_logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -226,20 +227,18 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
 }
 
-.stopka_span {
+.footer_span {
   color: #f4f4fd;
 }
 
-.stopka_text {
+.footer_text {
   line-height: 1.5;
   size: 12px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-left: 156px;
 }
 
 .header_style {
@@ -425,7 +424,7 @@ section {
   overflow: hidden;
 }
 
-.portfolio_content:hover .text_transition {
+.list_points_sec_four:hover .text_transition {
   transform: translate(0);
 }
 
