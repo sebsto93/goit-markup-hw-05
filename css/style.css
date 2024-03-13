@@ -713,7 +713,7 @@ section {
   margin-bottom: 24px;
 }
 
-.checkbox-accept:active {
+.checkbox:active {
   background-color: #404bbf;
 }
 
@@ -721,7 +721,7 @@ section {
   cursor: pointer;
 }
 
-.check:checked + .form-field span {
+.check:checked + .user-privacy-style span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
